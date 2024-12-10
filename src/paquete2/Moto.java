@@ -13,8 +13,16 @@ public class Moto extends Auto {
         this.pitar();
     }
 
+    public void pitar(){
+        System.out.println("Las motos no pitan");
+    }
+
     public void acelerar(){
         System.out.println("Avanzo muy rapido");
+    }
+
+    public void arrancar(){
+        System.out.println("Arrancado");
     }
     
 }
